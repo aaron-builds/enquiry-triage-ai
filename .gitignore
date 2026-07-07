@@ -1,0 +1,12 @@
+# Environment — never commit real keys
+.env
+
+# Results log may contain customer data — track the folder, not its contents
+results/*
+!results/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
